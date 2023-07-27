@@ -2,10 +2,7 @@ import json
 
 json_data = {}
 
-
-
 dict_data = {
-    "data": {
         {
         "instruction": " ",
         "input": '앞으로 움직였다가 뒤로 움직이고 1초 동안 왼쪽, 오른쪽으로 속도 30으로 움직이기',
@@ -37,7 +34,6 @@ dict_data = {
                     hamster.turn_left(1.5, 60)     #\
                     hamster.turn_right(1.5, 60) "
         }
-    }
 }
 
 
